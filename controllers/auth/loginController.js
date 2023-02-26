@@ -6,7 +6,7 @@ import { getData } from "../../config/index.js";
 
 const loginController = {
     async login(req, res, next) {
-    
+
         // validation
         const loginSchema = Joi.object({
             phone: Joi.number().required(),
@@ -19,14 +19,14 @@ const loginController = {
             return next(error);
         }
 
-        let query = "SELECT * FROM `addowner` WHERE `phone`='" + req.body.phone + "';";
+        let query = "SELECT * FROM `login` WHERE `phone`='" + req.body.phone + "';";
         await getData(query, next).then(async (data) => {
             if (data.length <= 0) {
                 return next(CustomErrorHandler.wrongCredentials());
             } else {
                 // const match = await bcrypt.compare(req.body.password, data[0].password);
-                const match = md5(req.body.password) === data[0].password ? true : false;
-                delete data[0].password;
+                const match = md5(req.body.password) === data[0].pass ? true : false;
+                delete data[0].pass; delete data[0].status;
                 if (!match) {
                     return next(CustomErrorHandler.wrongCredentials());
                 } else {
