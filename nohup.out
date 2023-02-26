@@ -1,0 +1,60 @@
+
+> rest-api@1.0.0 start
+> node -r esm server.js
+
+Wed, 04 Jan 2023 11:20:17 GMT body-parser deprecated undefined extended: provide extended option at server.js:14:20
+Listening app Post 5000
+database Connected successfully!
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+
+> rest-api@1.0.0 start
+> node -r esm server.js
+
+Wed, 04 Jan 2023 11:20:57 GMT body-parser deprecated undefined extended: provide extended option at server.js:14:20
+Listening app Post 5000
+database Connected successfully!
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+
+> rest-api@1.0.0 start
+> node -r esm server.js &
+
+Wed, 04 Jan 2023 11:23:54 GMT body-parser deprecated undefined extended: provide extended option at server.js:14:20
+Listening app Post 5000
+database Connected successfully!
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+
+> rest-api@1.0.0 start
+> node -r esm server.js &
+
+Wed, 04 Jan 2023 11:24:54 GMT body-parser deprecated undefined extended: provide extended option at server.js:14:20
+Listening app Post 5000
+database Connected successfully!
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
+params { user_id: '1845' }
+SELECT * FROM cattle_list WHERE 1  AND user_id = 1845
