@@ -1,5 +1,4 @@
 import Joi from "joi";
-import bcrypt from 'bcrypt';
 import md5 from 'md5'
 import { CustomErrorHandler, JwtService } from "../../service/index.js";
 import { getData } from "../../config/index.js";

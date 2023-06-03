@@ -9,7 +9,7 @@ const credentil = false ? {
     {
         host: "localhost",
         user: "root",
-        password: "Monesh@123",
+        password: "",
         database: "bustrack"
     }
 
